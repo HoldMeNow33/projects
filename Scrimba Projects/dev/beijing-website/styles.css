@@ -1,0 +1,140 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:  #ff4a56;
+    font-size: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/visit-beijing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+            
+}
+
+.hero h1,
+.hero h2 {
+    max-width: 650px;
+    text-align: center;
+}
+
+.h2-headline {
+    margin: 0;
+    padding: 0;
+}
+
+#top-places {
+    font-size: 45px;
+    color: rgb(0, 7, 110);
+    text-shadow: 2px 2x 4px black;
+}
+
+
+.come-visit{
+    background: #095533;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.about-beijing {
+    background: #49bb82;
+    padding: 1px 5px;
+    border-radius: 5px;
+    
+}
+
+.activities{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    background:  #ff4a56;
+    color: rgb(0, 7, 110);
+    text-shadow: 2px 2x 4px black;
+    height: 400px;
+    margin-bottom: 150px;
+  
+}
+
+.item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.item img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: solid 5px #7f5539;
+    border-radius: 50%;
+
+}
+    
+.guide {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+            
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffa5ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(40, 5, 138);
+    text-shadow: 2px 2x 4px black;
+    border-bottom: 2px black;
+    
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#ling-text {
+    font-style: italic;
+}
+#ling {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 5px #7f5539;
+    object-fit: cover;
+}
