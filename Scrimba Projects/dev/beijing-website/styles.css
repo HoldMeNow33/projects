@@ -16,7 +16,7 @@ body {
     font-family: "Jersey 25", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background:  #ff4a56;
+    background:  orange;
     font-size: 25px;
 }
 
@@ -68,7 +68,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
-    background:  #ff4a56;
+    background:  orange;
     color: rgb(0, 7, 110);
     text-shadow: 2px 2x 4px black;
     height: 400px;

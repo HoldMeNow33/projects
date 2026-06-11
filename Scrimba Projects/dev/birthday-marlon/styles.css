@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#082533, #50e9a7);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid #4c7dd7;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #f4ff1e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+     color: black;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ff2323;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+/* MAIN GIFT BOX */
+.gift-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    background-position: center;
+
+    transition: 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 🎁 HAPPY */
+#gift-img-happy:hover,
+#gift-img-happy:active,
+#gift-img-happy:focus {
+    background-image: url("images/bday.gif");
+}
+
+/* 😎 HOT */
+#gift-img-hot:hover,
+#gift-img-hot:active,
+#gift-img-hot:focus {
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFwdzE5MGdncTI0MG5hZmFuaXp4MW4yaWFpamlnYm5zdGJ3ZmlyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iOPiWX4wUMhly5mFP4/giphy.gif");
+}
+
+/* 🎾 GENIUS */
+#gift-img-genius:hover,
+#gift-img-genius:active,
+#gift-img-genius:focus {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWNmejFnMmxpeDk0a2I2Y2phYnVtMjZ4cWx5enRxZTJhc2c0eDluaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BbZi0BelROk2LhAjA4/giphy.gif");
+}
+
+/* 🐯 BADASS */
+#gift-img-badass:hover,
+#gift-img-badass:active,
+#gift-img-badass:focus {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJ1d3BtcDRxa2RxNWVteHNjb3pheTNpc2o0NzRoZHNnZHNuMGFvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x8ClinVTwo4IE/giphy.gif");
+}
+
+/* 🍗 CHEERS */
+#gift-img-cheers:hover,
+#gift-img-cheers:active,
+#gift-img-cheers:focus {
+    background-image: url("https://tenor.com/view/fallout-new-vegas-gif-26614980.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
